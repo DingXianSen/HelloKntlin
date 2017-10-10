@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--颜色为#0E6DE3白字头部，高度30.5px-->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:background="#0E6DE3"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="欢迎使用聚优POS系统"
+        android:layout_height="38dp" />
+</LinearLayout>

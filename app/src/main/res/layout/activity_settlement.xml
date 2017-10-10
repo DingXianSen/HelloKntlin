@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!--结算-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_head_top" />
+
+    <include layout="@layout/layout_head_two" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <!-- <TextView
+             android:id="@+id/activity_settlement_message"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="50dp"
+             android:text="要打印的消息"
+             android:textColor="@color/color_dd080808"
+             android:textSize="16sp" />-->
+
+        <include
+            layout="@layout/message" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="结算清单正在打印，请稍后" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="请撕单据按'返回首页'键......" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activity_settlement_btn_return_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_1DB4DE"
+            android:text="返回首页"
+            android:textColor="@color/color_FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

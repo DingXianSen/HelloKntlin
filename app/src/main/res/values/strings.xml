@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">聚优POS</string>
+
+
+    <!--二维码相关-->
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+
+
+    <!--帮助页-->
+    <string name="pos_help_1">POS机默认开机后，会显示签到页面，签到需要验证影院柜员的账号和密码，才可以签到成功，如下图所示。</string>
+    <string name="pos_help_2.1">签到成功后，显示主功能页面，分为消费功能区和常用功能区，如下图所示。</string>
+    <string name="pos_help_2.2">扫码消费流程(以兑换卡为例):选择“扫码”——扫描——输入消费点数/密码(确定)——交易成功！</string>
+    <string name="pos_help_2.3">刷卡消费流程(以网票卡为例):选择“刷卡”——刷卡——选择影票类型——输入消费张数/密码(确定)——交易成功！</string>
+    <string name="charge_number">主管账号:</string>
+    <string name="charge_password">主管密码:</string>
+    <string name="cancel">清除</string>
+    <string name="delete">删除</string>
+    <string name="return_main">返回首页</string>
+    <string name="confirm">确定</string>
+    <string name="activity_consumption_commonfunctions">常用功能</string>
+</resources>

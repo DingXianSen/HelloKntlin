@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--签到页-->
+
+    <include layout="@layout/layout_head_top" />
+
+    <include layout="@layout/layout_head_two" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="柜员号:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- android:background="@drawable/activity_sign_edit_style" -->
+                <EditText
+                    android:id="@+id/activity_sign_et_teller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="2"
+                    android:layout_weight="5"
+                   />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="密    码:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--android:background="@drawable/activity_sign_edit_style"-->
+            <EditText
+                android:id="@+id/activity_sign_et_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="6"
+                android:layout_weight="5"
+
+                android:inputType="numberPassword" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/activity_sign_btn_nowsign"
+                style="@style/BigTextButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_main_button_style"
+                android:text="立即签到" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_sign_num_1"
+                style="@style/SignNumStyle"
+                android:text="1"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_2"
+                style="@style/SignNumStyle"
+                android:text="2"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_3"
+                style="@style/SignNumStyle"
+                android:text="3"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_sign_num_4"
+                style="@style/SignNumStyle"
+                android:text="4"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_5"
+                style="@style/SignNumStyle"
+                android:text="5"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_6"
+                style="@style/SignNumStyle"
+                android:text="6"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_sign_num_7"
+                style="@style/SignNumStyle"
+                android:text="7"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_8"
+                style="@style/SignNumStyle"
+                android:text="8"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_9"
+                style="@style/SignNumStyle"
+                android:text="9"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_sign_num_clear"
+                style="@style/SignNumStyle"
+                android:text="@string/cancel"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_0"
+                style="@style/SignNumStyle"
+                android:text="0"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sign_num_delete"
+                style="@style/SignNumStyle"
+                android:text="@string/delete"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

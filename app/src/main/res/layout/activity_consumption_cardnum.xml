@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--手输消费页-->
+
+    <include layout="@layout/layout_head_top" />
+
+    <include layout="@layout/layout_head_two" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/activity_consumption_cardnum_et_teller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="5"
+                    android:hint="卡号/码号"
+                    android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/activity_consumption_cardnum_et_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="5"
+                android:hint="请输入密码"
+                android:inputType="numberPassword"
+                android:maxLength="6" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:text="提示：电子码消费不需要密码，可直接点击“确定“进行消费！"
+                android:textColor="@color/color_dd080808"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_1"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_2"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_3"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_4"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_5"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_6"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_7"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_8"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_9"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_clear"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_0"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_delete"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_return_main"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/color_1DB4DE"
+                android:text="@string/return_main"
+                android:textColor="@color/color_FFFF"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/activity_consumption_cardnum_num_yes"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="60dp"
+                android:layout_weight="1"
+                android:background="@color/color_FF7900"
+                android:text="@string/confirm"
+                android:textColor="@color/color_FFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

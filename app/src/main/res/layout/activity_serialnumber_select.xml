@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_head_top" />
+
+    <include layout="@layout/layout_head_two" />
+    <!--流水号查询-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="流水号："
+            android:textColor="@color/color_dd080808"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/activity_serialnumber_select_et_inputseralnumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入流水号"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_1"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_2"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_3"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_4"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_5"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_6"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_7"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_8"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_9"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_clear"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_0"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_delete"
+                style="@style/SignNumStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_return_main"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/color_1DB4DE"
+                android:text="返回首页"
+                android:textColor="@color/color_FFFF"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/activity_serialnumber_select_cardnum_num_yes"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="60dp"
+                android:layout_weight="1"
+                android:background="@color/color_FF7900"
+                android:text="确定"
+                android:textColor="@color/color_FFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

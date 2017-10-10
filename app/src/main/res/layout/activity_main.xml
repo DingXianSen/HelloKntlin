@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.juyoufuli.pos.activity.MainActivity">
+
+    <!--POS机首页-->
+    <!--头部固定引用-->
+    <include layout="@layout/layout_head_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_main_btn_sign"
+            style="@style/BigTextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/layout_main_button_style"
+            android:text="签到"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/activity_main_btn_uninstall"
+            style="@style/BigTextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/layout_main_button_style"
+            android:text="禁止卸载应用授权"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

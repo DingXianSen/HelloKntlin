@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--选择消费方式页-->
+
+    <include layout="@layout/layout_head_top" />
+
+    <include layout="@layout/layout_head_two" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/activity_consumption_iv_scancode"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:src="@mipmap/img_scan_code" />
+
+        <ImageView
+            android:id="@+id/activity_consumption_iv_paybycard"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:src="@mipmap/img_pay_by_card" />
+
+        <ImageView
+            android:id="@+id/activity_consumption_iv_input"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:src="@mipmap/img_input_message" />
+
+    </LinearLayout>
+
+    <!--颜色为#3CCABA白字头部下侧，高度27px-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/color_3CCABA"
+        android:gravity="center"
+        android:text="@string/activity_consumption_commonfunctions"
+        android:textColor="@color/color_FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--activity_consumption_btn_return
+            activity_consumption_btn_settlement
+            activity_consumption_btn_reprint
+            activity_consumption_btn_setting
+            activity_consumption_btn_help
+            -->
+
+            <Button
+                android:id="@+id/activity_consumption_btn_return"
+                style="@style/ConSumptionStyle"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="退还" />
+
+            <Button
+                android:id="@+id/activity_consumption_btn_settlement"
+                style="@style/ConSumptionStyle"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="结算" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_btn_reprint"
+                style="@style/ConSumptionStyle"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="重打印" />
+
+            <Button
+                android:id="@+id/activity_consumption_btn_setting"
+                style="@style/ConSumptionStyle"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="设置" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_consumption_btn_help"
+                android:layout_marginLeft="52dp"
+                android:layout_width="120dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/color_FFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@color/color_1DB4DE"
+                android:layout_height="45dp"
+                android:text="帮助" />
+
+            <Button
+                android:id="@+id/activity_consumption_null"
+                android:layout_width="120dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

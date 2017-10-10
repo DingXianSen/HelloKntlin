@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ticketType_top" type="id">3001</item>
+    <item name="ticketType_di" type="id">3009</item>
+</resources>

@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <!--按钮大字体加粗-->
+    <style name="BigTextButtonStyle">
+        <item name="android:textColor">@color/color_FFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--签到数字按钮Style-->
+    <style name="SignNumStyle">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/color_FFFF</item>
+        <item name="android:background">@color/color_FF7900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--消费方式页常用功能Style-->
+    <style name="ConSumptionStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/color_FFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/color_1DB4DE</item>
+    </style>
+
+    <!--查询交易汇总TextView Style-->
+    <style name="TransactionSumSelectTextViewStyle">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/color_dd080808</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--刷卡消费页TextView Style-->
+    <style name="MagCardTextViewStyle">
+        <item name="android:textColor">@color/color_dd080808</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--帮助页，提示文字前数字TextView Style-->
+    <!--android:textColor="@color/color_help_startnum"
+                    android:textSize="18sp" -->
+    <style name="HelpTextViewNumStyle">
+        <item name="android:textColor">@color/color_help_startnum</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--输入消费张数页TextView Style-->
+    <style name="SheetNumTextViewStyle">
+        <item name="android:textColor">@color/color_dd080808</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
